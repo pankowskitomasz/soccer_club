@@ -1,15 +1,38 @@
 $bg__blend--soft: multiply;
-$bg__classes:
-    "error",
-    "comingsoon",
-    "privacy";
+$bg__about-img: 
+    "../img/about/about-s1.jpg",
+    "../img/about/about-s2.jpg";
 $bg__comingsoon-img: "../img/club.jpg";
+$bg__contact-img: 
+    "../img/contact/contact-s1.jpg",
+    "../img/contact/contact-s2.jpg",
+    "../img/contact/contact-s3.jpg";
 $bg__error-img: "../img/club.jpg";
+$bg__index-img: "../img/index/index-s1.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__schedule-img: 
+    "../img/schedule/schedule-s1.jpg",
+    "../img/schedule/schedule-s2.jpg",
+    "../img/schedule/schedule-s3.jpg";
+$bg__user-img: "../img/user/user-s1.jpg";
+$bg__classes:
+    "about",
+    "comingsoon",
+    "contact",
+    "error",
+    "index",
+    "privacy",
+    "schedule",
+    "user";
 $bg__aoa:
-    $bg__error-img,
+    $bg__about-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__schedule-img,
+    $bg__user-img;
 $body__min-height: 100%;
 $color__bg-1: #666;
 $color__shadow: #000;
@@ -21,7 +44,4 @@ $font-main__size: 16px;
 $header__height: 78px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;
-$theme-colors: (
-  "primary": #30a9d6,
-  "secondary": #ffd544
-);
+$footer-height: 31px;
